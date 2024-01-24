@@ -1,0 +1,150 @@
+body{
+  width: 100vw;
+}
+.bold{
+  font-weight: bold;
+}
+
+td,th{
+  border-bottom: 1px solid rgba(157, 132, 132, 0.803);
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+hr{
+  width: 90%;
+  margin: auto;
+}
+
+
+.recipe{
+  &__image{
+    width: 100%;
+    
+  }
+
+  &__title{
+    font-family: $Font-family2;
+    padding: 2.4rem 1.8rem 1.7rem;
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    line-height: 2.2rem;
+  }
+  &__description{
+    padding: 0 1.9rem;
+    font-family: $Font-family1;
+    font-size: $FontSizeParagraph;
+    line-height: 1.43rem;
+    color: $WengeBrown;
+  }
+
+  &__time{
+    background-color: $RoseWhite ;
+    margin: 2rem;
+    padding: 1rem ;
+    font-family: $Font-family1;
+    color: $WengeBrown;
+  }
+  &__time-title{
+    color: $DarkRaspberry;
+    margin-top: .6rem;
+    margin-left: .4rem;
+    letter-spacing:.6px ;
+  }
+&__time-list{
+  margin-left: 2rem;
+
+}
+&__time-item{
+  margin-top: 1rem;
+  margin-left: .5rem;
+  padding: 0 .5rem;
+}
+
+&__ingredients{
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+}
+
+&__ingredients-title{
+  color: $Nutmeg;
+  font-family: $Font-family2;
+  font-size:1.7rem ;
+  padding-bottom: .5rem;
+}
+
+&__ingredients-list{
+  color: $WengeBrown;
+  font-family: $Font-family1;
+  margin-left: 2rem;
+}
+
+&__ingredients-item{
+
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+&__instructions{
+  
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+&__instructions-title{
+  padding-top: 1rem;
+  color: $Nutmeg;
+  font-family: $Font-family2;
+  font-size:1.7rem ;
+  padding-bottom: 1.2rem;
+  
+}
+&__instructions-list{
+  color: $WengeBrown;
+  font-family: $Font-family1;
+  margin-left: 2rem;
+}
+&__instructions-item{
+ 
+  margin-top: 0.6rem;
+
+}
+&__nutrition{
+ 
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+&__nutrition-title{
+  padding-top: 1rem;
+  color: $Nutmeg;
+  font-family: $Font-family2;
+  font-size:1.7rem ;
+  padding-bottom: 1.2rem;
+}
+&__nutrition-info{
+
+  padding: 0 .4rem;
+  color: $WengeBrown;
+  font-family: $Font-family1;
+  margin-bottom: 2rem;
+}
+&__nutrition-table{
+  width: 100%;
+  color: $Nutmeg;
+  font-family: $Font-family1;
+  border-collapse: collapse;
+ 
+}
+&__nutrition-label{
+ color: $WengeBrown;
+ font-weight: 100;
+ padding-left: 2rem;
+}
+&__nutrition-value{
+  padding-right: 3rem;
+}
+}
+
+
+
