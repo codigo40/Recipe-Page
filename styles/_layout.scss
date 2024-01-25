@@ -5,6 +5,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
 
 }
 .bold{
@@ -21,7 +22,9 @@ hr{
   width: 90%;
   margin: auto;
 }
-
+.container{
+  align-self: center;
+}
 
 .recipe{
   &__image{
