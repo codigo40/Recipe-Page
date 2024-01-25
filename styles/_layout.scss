@@ -1,5 +1,11 @@
 body{
   width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 .bold{
   font-weight: bold;
@@ -89,7 +95,7 @@ hr{
 &__instructions{
   
   padding: 0 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 &__instructions-title{
@@ -127,7 +133,7 @@ hr{
   padding: 0 .4rem;
   color: $WengeBrown;
   font-family: $Font-family1;
-  margin-bottom: 2rem;
+ 
 }
 &__nutrition-table{
   width: 100%;
@@ -145,6 +151,4 @@ hr{
   padding-right: 3rem;
 }
 }
-
-
 

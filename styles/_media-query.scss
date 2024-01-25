@@ -1,0 +1,57 @@
+
+@media (min-width:376px){
+    body{
+      background-color: $Eggshell;
+    }
+    .container{
+      max-width: 46rem;
+    }
+    .recipe{
+      background-color: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      &__image{
+        border-radius: 1rem;
+      }
+      &__title{
+        margin-left: -1rem;
+        font-size: 2.5rem;
+        letter-spacing: .1px;
+      }
+      
+      &__description{
+        margin-left: -1rem;
+      }
+      &__time-title{
+        margin-left: -.5rem;
+      }
+      &__ingredients{
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+      }
+      
+      &__ingredients-title{
+        margin-left: -1rem;
+      }
+      &__ingredients-item{
+        margin-top: 0.8rem;
+      }
+      &__instructions-title{
+        margin-left: -1rem;
+        margin-top: 1rem;
+  
+      }
+      &__instructions-list{
+        margin-left: 1rem;
+  
+      }
+      &__instructions-item{
+        margin-top: 1rem;
+    }
+    &__nutrition{
+      margin-top: -.5rem;
+    }
+  }
+  
+  }
+  
