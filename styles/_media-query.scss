@@ -17,7 +17,6 @@
       font-size: 2.5rem;
       letter-spacing: 0.1px;
     }
-
     &__description {
       margin-left: -1rem;
     }
@@ -28,7 +27,6 @@
       padding: 0 2rem;
       margin-bottom: 2rem;
     }
-
     &__ingredients-title {
       margin-left: -1rem;
     }
@@ -41,12 +39,13 @@
     }
     &__instructions-list {
       margin-left: 1rem;
+      margin-top: -1rem;
     }
     &__instructions-item {
       margin-top: 1rem;
     }
     &__nutrition {
-      margin-top: -0.5rem;
+      margin-top: .5rem;
     }
   }
 }

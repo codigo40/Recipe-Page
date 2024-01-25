@@ -178,11 +178,12 @@ hr {
   }
   .recipe__instructions-list {
     margin-left: 1rem;
+    margin-top: -1rem;
   }
   .recipe__instructions-item {
     margin-top: 1rem;
   }
   .recipe__nutrition {
-    margin-top: -0.5rem;
+    margin-top: 0.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
