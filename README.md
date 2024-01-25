@@ -4,9 +4,6 @@ A responsive recipe page project built using HTML5, CSS3, and SASS. This project
 
 ![Recipe Page Project Preview Desktop](./assets/images/Frontend-Mentor-Recipe-page.png)
 
-![Recipe Page Project Preview Mobile](./assets/images/Frontend-Mentor-Recipe-page.png)
-
-
 ## Features
 
 - Responsive design for both mobile and desktop platforms.
